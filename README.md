@@ -9,6 +9,10 @@ We have created an app that uses a traditional concentrating method widely known
 
 ![pomodoro2](https://user-images.githubusercontent.com/76477365/119272690-ced76800-bc24-11eb-9204-0d4b2ddb1bf2.png)
 
-## The Alarm clock enables the user to input the time and also displays the IST time.
+## The Alarm clock enables the user to input the time and also displays the IST.
 ![alarm](https://user-images.githubusercontent.com/76477365/119272696-d434b280-bc24-11eb-9444-949e76d01bc6.png)
 
+Team Menbers:
+Jahnavi Darbhamulla
+Kruthi M
+Sounak Singh
