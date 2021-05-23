@@ -13,6 +13,6 @@ We have created an app that uses a traditional concentrating method widely known
 ![alarm](https://user-images.githubusercontent.com/76477365/119272696-d434b280-bc24-11eb-9444-949e76d01bc6.png)
 
 Team Members:
-Jahnavi Darbhamulla
-Kruthi M
+Jahnavi Darbhamulla,
+Kruthi M,
 Sounak Singh
