@@ -1,4 +1,4 @@
-### On_Time_Presence
+# On_Time_Presence
 We have created an app that uses a traditional concentrating method widely known as " POMODORO TECHNIQUE" . We have also included an alarm clock in this app. The “Pomodoro Technique” basically helps us focus on a particular work for 25 minutes straight. Later on we continue the work after a 5 minute break. After we do this for 4 times straight ,we take a 30 minute break. This method helps us to finish our work faster and more efficiently without any distraction. An alarm clock is a clock designed to alert an individual or a group of individuals at a specific time. Our app meets the same demands too.  We have created these two utilities using python and its packages such as tkinter, time, winsound, etc. We have created a user-friendly GUI where the user can use the pomodoro clock as per their wish and the alarm clock too.
 
 ## This is the Home page. Here we input the name and the main focus for today from the user.
