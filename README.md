@@ -7,6 +7,8 @@ It is an effective way to achieve a balance between quantity and quality, and al
 
 We have created these two utilities using python and its packages such as tkinter, time, winsound, etc. We have created a user-friendly GUI where the user can use the pomodoro clock as per their wish and the alarm clock too.
 
+
+
 ### This is the Home page. Here we input the name and the main focus for today from the user.
 ![home](https://user-images.githubusercontent.com/76477365/119272615-73a57580-bc24-11eb-8b04-6895b9399ea9.PNG)
 
