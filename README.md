@@ -1,5 +1,5 @@
 # On_Time_Presence
-We have created an app that uses a traditional concentrating method widely known as " POMODORO TECHNIQUE" . We have also included an alarm clock in this app. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.In this method we decide on a task and set a timer for 25 mins and work on it.Once the timer stops we take a 5 min break. After we do this for 4 times straight ,we take a long 30 minute break.
+We have created an app that uses a traditional learning method widely known as " POMODORO TECHNIQUE" . We have also included an alarm clock in this app. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.In this method we decide on a task and set a timer for 25 mins and work on it.Once the timer stops we take a 5 min break. After we do this for 4 times straight ,we take a long 30 minute break.
 
 The idea behind the technique is that the timer instills a sense of urgency. Rather than feeling like you have endless time in the workday to get things done and then ultimately squandering those precious work hours on distractions, you know you only have 25 minutes to make as much progress on a task as possible.With many surprising benefits, people never expect the uplift in productivity they experience from the pomodoro technique. 
 
