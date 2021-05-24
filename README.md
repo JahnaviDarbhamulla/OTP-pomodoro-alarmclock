@@ -21,7 +21,7 @@ We have created these two utilities using python and its packages such as tkinte
 ### The Alarm clock enables the user to input the time and also displays the IST.
 ![alarm](https://user-images.githubusercontent.com/76477365/119272696-d434b280-bc24-11eb-9444-949e76d01bc6.png)
 
-We have used Python for this project to convert this file into an executable file, so you dont have to run the program eveytime to use this feature, you can directly open it using the executable file !
+We have used Python for this project to convert this file into an executable file, so you dont have to run the program eveytime to use this feature, you can directly open it using the executable file ! :)
 
 Team Members:
 Jahnavi Darbhamulla,
