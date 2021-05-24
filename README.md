@@ -13,7 +13,8 @@ We have created these two utilities using python and its packages such as tkinte
 ![home](https://user-images.githubusercontent.com/76477365/119272615-73a57580-bc24-11eb-8b04-6895b9399ea9.PNG)
 
 ### Pomodoro feature in this App pops up in front of all the windows once the time is up.
-![pomodoro](https://user-images.githubusercontent.com/76477365/119272659-abacb880-bc24-11eb-94c3-559edc1907a6.png)
+![pomodoro](https://user-images.githubusercontent.com/76477365/119289899-213a7800-bc69-11eb-90c1-fe2e58aedd20.png)
+
 
 ![pomodoro2](https://user-images.githubusercontent.com/76477365/119272690-ced76800-bc24-11eb-9204-0d4b2ddb1bf2.png)
 
