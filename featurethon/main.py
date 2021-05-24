@@ -94,7 +94,7 @@ def home_page():
     Alarm_button.place(x=303, y=75)
 
     Pomodoro_button.place(x=25, y=75)
-    canvas.itemconfig(title_pomo, title="")
+    canvas.itemconfig(title_pomo, state="hidden")
 
 
 
