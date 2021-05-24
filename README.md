@@ -9,6 +9,8 @@ We have created these two utilities using python and its packages such as tkinte
 
 
 
+
+
 ### This is the Home page. Here we input the name and the main focus for today from the user.
 ![home](https://user-images.githubusercontent.com/76477365/119272615-73a57580-bc24-11eb-8b04-6895b9399ea9.PNG)
 
