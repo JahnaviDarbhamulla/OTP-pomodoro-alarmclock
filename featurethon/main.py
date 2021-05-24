@@ -3,7 +3,6 @@
 from tkinter import *
 from tkinter import simpledialog
 # Importing all the necessary libraries to form the alarm clock:
-from time import sleep
 import datetime
 import time
 import winsound
@@ -25,7 +24,7 @@ ORANGE = "#f45c43"
 REPS = 0
 WORK_MIN = 1
 SHORT_BREAK_MIN = 1
-LONG_BREAK_MIN = 1
+LONG_BREAK_MIN = 30
 
 
 def clear():
@@ -68,7 +67,8 @@ FOCUS_INP = simpledialog.askstring(title="Test", prompt="What is your main focus
 canvas.itemconfigure(welcome, state='hidden')
 
 
-# ------------------------------------------------------------HOME PAGE---------------------------------------------------------
+# ------------------------------------------------------------HOME 
+# PAGE--------------------------------------------------------- 
 
 def on_click_pomodoro():
     canvas.itemconfigure(hello, fill="#003973")
@@ -76,7 +76,7 @@ def on_click_pomodoro():
     Alarm_button.place_forget()
     start_button.place(x=100, y=500)
     reset_button.place(x=350, y=500)
-    home_btn.place(x=220, y=650)
+    home_btn.place(x=220, y=550)
     canvas.itemconfigure(real_time, state="hidden")
     canvas.itemconfigure(clock, state="normal")
     canvas.itemconfigure(image_id, image=work_img)
@@ -95,7 +95,6 @@ def home_page():
 
     Pomodoro_button.place(x=25, y=75)
     canvas.itemconfig(title_pomo, state="hidden")
-
 
 
 # ---------------------------------------Real time clock-----------------------------------
@@ -251,16 +250,14 @@ def On_click_alarm():
         check_marks.config(text="")
         time_format.place_forget()
         addTime.place_forget()
-        hourTime.place_forget()
-        minTime.place_forget()
-        secTime.place_forget()
+        hour_time.place_forget()
+        min_time.place_forget()
+        sec_time.place_forget()
         submit.place_forget()
         canvas.itemconfigure(clock, fill="Black")
         canvas.itemconfigure(hello, fill="Black")
         canvas.itemconfigure(focus, fill="Black")
         check_marks.place_forget()
-
-
 
         canvas.itemconfigure(real_time, state="hidden")
         canvas.itemconfig(title_pomo, text="", fill="black")
@@ -270,7 +267,7 @@ def On_click_alarm():
     Pomodoro_button.place_forget()
     home_alarm_btn = Button(text="Home Page", highlightthickness=0, width=20,
                             height=1, bd='4', font=("Arial", 10, "bold"), bg="#b0dab9", command=home_alarm)
-    home_alarm_btn.place(x=220, y=650)
+    home_alarm_btn.place(x=220, y=590)
 
     canvas.itemconfig(image_id, image=alarm_img)
 
@@ -295,7 +292,7 @@ def On_click_alarm():
                 raise_above_all()
                 print("Time to Wake up")
                 time_format.config(text="Time's Up!")
-                time_format.place(x=250,y=200)
+                time_format.place(x=250, y=200)
                 winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
 
                 break
@@ -307,8 +304,6 @@ def On_click_alarm():
     # clock = Tk()
     window.title("Alarm Clock")
 
-    # clock.iconbitmap(r"dataflair-logo.ico")
-    # clock.geometry("400x200")
 
     time_format = Label(window, text="Enter time in 24 hour format", fg="black", bg="#f4cca4", font="Arial,30")
 
@@ -322,12 +317,12 @@ def On_click_alarm():
     sec = StringVar()
 
     # Time required to set the alarm clock:
-    hourTime = Entry(window, textvariable=hour, fg="white", bg="#2c122f", width=15)
-    hourTime.place(x=200, y=500)
-    minTime = Entry(window, textvariable=minutes, fg="white", bg="#2c122f", width=15)
-    minTime.place(x=270, y=500)
-    secTime = Entry(window, textvariable=sec, fg="white", bg="#2c122f", width=15)
-    secTime.place(x=320, y=500)
+    hour_time = Entry(window, textvariable=hour, fg="white", bg="#2c122f", width=15)
+    hour_time.place(x=200, y=500)
+    min_time = Entry(window, textvariable=minutes, fg="white", bg="#2c122f", width=15)
+    min_time.place(x=270, y=500)
+    sec_time = Entry(window, textvariable=sec, fg="white", bg="#2c122f", width=15)
+    sec_time.place(x=320, y=500)
 
     # To take the time input by user:
     submit = Button(window, text='Set Alarm', width=20,
@@ -342,3 +337,4 @@ Alarm_button = Button(window, text='Alarm Clock', width=33,
 Alarm_button.place(x=303, y=75)
 
 window.mainloop()
+
