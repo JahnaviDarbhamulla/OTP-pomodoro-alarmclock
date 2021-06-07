@@ -27,9 +27,4 @@ We have created these two utilities using python and its packages such as tkinte
 We have used Python for this project to convert this file into an executable file, so you dont have to run the program everytime to use this feature, you can directly open it using the executable file ! :) 
 (Download the dist folder to run the executable file)
 
-Team Name: Bro Code
 
-Team Members:
-Jahnavi Darbhamulla,
-Kruthi M,
-Sounak Singh
